@@ -57,6 +57,10 @@ background-color:var(--background-color);
 .nav.contacts {
     color:var(--paragraph-color); 
 }
+.nav.contacts:hover,
+.nav.contacts:focus {
+    color: var(--accent-color);
+}
 
 .bottom-section {
     background-color:var(--second-background-color);
@@ -124,28 +128,30 @@ font-weight: 700;
 .team-section {
     background-color: #F5F4FA;;
 }
-.team-title {
-    font-weight: 500;
-    color: var(--title-color);
-    font-size: 16px;
-}
-.team-title:hover,
-.team-title:focus {
-    color: var(--accent-color);
-}
+
+
 .team {
         font-size: 16px;
         line-height:calc(19/16);
         letter-spacing: 0.03em;
         color: var(--paragraph-color);
+        background-color: #FFFFFF;
+}
+.team-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-color);
+   
 }
 /* портфоліо */
-.project {
+.project-link {
     font-size: 16px;
 line-height:calc(30/16);
 letter-spacing: 0.03em;
 color: var(--paragraph-color);
+text-decoration: none;
 }
+
 .project-title {
 
     font-weight: 700;
@@ -154,10 +160,7 @@ color: var(--paragraph-color);
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
-.project-title:hover,
-.project-title:focus {
-    color: var(--accent-color);
-}
+
 .filter {
     font-family: 'Roboto';
     font-style: normal;
@@ -171,9 +174,10 @@ color: var(--paragraph-color);
 }
 .filter:hover,
 .filter:focus {
-    background-color: var(--accent-color);
+    background-color:#2196F3;
     color: #ffffff;
 }
 .current2 {
-    color: var(--accent-color);
+background-color: #2196F3;
+color: #FFFFFF;
 }
